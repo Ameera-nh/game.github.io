@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;700&display=swap");
+
+* {
+   font-family: "Geologica", sans-serif;
+  
+}
+
+body {
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+    width: 100%;
+    height: 20px;
+    background-size: 20px 100%;
+  
+}
+
+input[type="number"] {
+/*   width: 70px;
+  height: 20px */
+  margin: 0.2rem;
+  width: auto
+  
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px;
+  color: #fc6c85;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white
+}
+
+h2 {
+  color: #fc6c85;
+  text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white
+}
+
+button {
+  margin-top: 10px;
+}
+
+
+.container {
+  width: 609px;
+  height: 420px;
+  margin: auto; 
+ position: relative;
+  border: 2px solid #4776E6;
+  background-color: #8EC5FC;
+}
