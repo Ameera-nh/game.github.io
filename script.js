@@ -20,7 +20,7 @@ const randomNumber = Math.floor(Math.random() * 10) + 1;
       document.getElementById('message').textContent = `Sorry, you lost. The correct number ${randomNumber}`
       disableButton();
     } else {
-      let message = guess < randomNumber ? 'Too low. Try again!' : 'Too high. Try again!';
+      let message = 'Almost there, please try again!';
       document.getElementById('message').textContent = message
     }
   }
